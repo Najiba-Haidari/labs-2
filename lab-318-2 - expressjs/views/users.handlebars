@@ -1,0 +1,13 @@
+<div>
+<h1>List of users</h1>
+    <div class="container">
+        
+        {{#each users as |user|}}
+    <div class="card">
+        <h1>{{user.username}}</h1>
+        <p>role: {{user.role}} with id: {{user.id}}</p>
+    </div>
+    {{/each}}
+    </div>
+    <a href="/">Go back to homepage</a>
+</div>

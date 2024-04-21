@@ -1,0 +1,40 @@
+*{
+    background-color: blanchedalmond;
+}
+
+form{
+    background-color:rgb(220, 228, 234);
+    width: 60%;
+    text-align: center;
+    padding: 30px;
+    margin:0 auto;
+}
+form label{
+    text-align: left;
+    background-color: rgb(220, 228, 234);
+    
+}
+input{
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+    margin: 10px auto;
+}
+input[type="submit"]{
+    background-color: rgb(36, 115, 205);
+    margin: 30px auto;
+}
+
+.card{
+    border: 2px solid blue;
+    width: 300px;
+    text-align: center;
+    /* background-color: rgb(128, 195, 223); */
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
